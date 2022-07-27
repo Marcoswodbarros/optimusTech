@@ -1,0 +1,57 @@
+.sobreNos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5em 0;
+    text-align: center;
+}
+
+.sobreNos__frase-inicial, .sobreNos__frase-pergunta{
+    color: var(--cor-sobreNos-1);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    padding: .5em;
+}
+
+.sobreNos__frase-pergunta{
+    color: var(--cor-sobreNos-2);
+    font-size: 48px;
+
+}
+
+.sobreNos__frase-resposta{
+    color: var(--cor-sobreNos-3);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sobreNos__numeros{
+    color: var(--cor-sobreNos-1);
+    font-family: var(--fonte-principal);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: .3em;
+}
+
+.sobreNos__subtitulo2{
+    color: var(--cor-sobreNos-2);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.sobreNos__texto{
+    color: var(--cor-sobreNos-3);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4em;
+}
+
+.sobreNos__box{
+    display: flex;
+    justify-content: space-around;
+}

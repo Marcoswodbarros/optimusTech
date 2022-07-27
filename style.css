@@ -1,0 +1,18 @@
+@import url(styles/menu-principal.css);
+@import url(styles/sobreNos.css);
+@import url(styles/vagasAbertas.css);
+@import url(styles/oqueFalam.css);
+@import url(styles/footer.css);
+
+:root{
+    --fonte-principal: "Inter";
+    --cor-branco: #FFFFFF;
+    --cor-optimus: #3A404E;
+    --cor-menuPrincipal: #667085;
+    --cor-botaoPrincipal: #8E2424;
+    --cor-sobreNos-1: #8E2424;
+    --cor-sobreNos-2: #101828;
+    --cor-sobreNos-3: #667085;
+    --cor-vagasAbertas-border: #EAECF0;
+    --cor-oqueFalam-backgorund: #C3191908;
+}

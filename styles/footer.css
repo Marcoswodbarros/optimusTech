@@ -1,0 +1,49 @@
+footer{
+    background: #F9FAFB;
+}
+
+footer h3{
+    color: var(--cor-sobreNos-2);
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 4em 0 .5em 0;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.footer__frase{
+    color: var(--cor-sobreNos-3);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.footer__botao-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    height: 2.7em;
+}
+
+.footer__botao{
+    background-color: var(--cor-botaoPrincipal);
+    border-radius: 10px;
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: .5em;
+    padding: .8em;
+    text-decoration: none;
+}
+
+.footer__final{
+    text-align: center;
+    margin: 2em 0 2em 0;
+}

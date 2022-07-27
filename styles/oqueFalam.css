@@ -1,0 +1,40 @@
+.oqueFalam{
+    align-items: center;
+    background: #C3191908;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7em;
+}
+
+.oqueFalam__frase{
+    color: var(--cor-sobreNos-1);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 3em 0 1em 0;
+}
+
+.oqueFalam__comentario{
+    color: var(--cor-sobreNos-2);
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.oqueFalam__julia{
+    color: var(--cor-sobreNos-2);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    margin: .5em 0 .5em 0;
+}
+
+.oqueFalam__desenvolvedora{
+    color: var(--cor-sobreNos-3);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 2em 0;
+}

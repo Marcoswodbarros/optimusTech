@@ -1,0 +1,96 @@
+.vagasAbertas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7em;
+}
+
+.vagasAbertas__frase{
+    color: var(--cor-sobreNos-1);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    padding: 4px 12px;
+}
+
+.vagasAbertas__frase-procura{
+    color: var(--cor-sobreNos-2);
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.vagasAbertas__frase-resposta{
+    color: var(--cor-sobreNos-3);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.vagasAbertas__areas{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0 0 20em;
+}
+
+.vagasAbertas__areas-titulo{
+    color: var(--cor-sobreNos-2);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.productDesigner, .uxDesigner, .ios, .front, .back{
+    border: 1px solid var(--cor-vagasAbertas-border);
+    border-radius: 8px;
+    margin-bottom: 2em;
+    width: 70%;
+}
+
+
+.vagasAbertas__areas-carreira{
+    color: var(--cor-sobreNos-2);
+    display: block;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 1em 2em;
+    padding-top: 1em;
+    width: 20em;
+}
+
+.productDesigner p{
+    color: var(--cor-sobreNos-3);
+    display: inline-block;
+    margin: 0 0 1em 2.5em;
+}
+
+.uxDesigner p{
+    color: var(--cor-sobreNos-3);
+    display: inline-block;
+    margin: 0 0 1em 2.5em;
+}
+
+.ios p{
+    color: var(--cor-sobreNos-3);
+    display: inline-block;
+    margin: 0 0 1em 2.5em;
+}
+
+.front p{
+    color: var(--cor-sobreNos-3);
+    display: inline-block;
+    margin: 0 0 1em 2.5em;
+}
+
+.back p{
+    color: var(--cor-sobreNos-3);
+    display: inline-block;
+    margin: 0 0 1em 2.5em;
+}
